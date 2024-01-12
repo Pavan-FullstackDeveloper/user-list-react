@@ -1,0 +1,70 @@
+.img-styles{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+
+}
+
+
+
+.div1 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the box shadow */
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/* Hover effect for the container */
+.div1:hover {
+    box-shadow: 0 18px 30px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Styling for the profile image */
+.img-styles {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 80px; /* Adjust the size as needed */
+    height: 80px; /* Adjust the size as needed */
+}
+.img-styles:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Styling for the text content */
+.div1 div {
+    flex: 1;
+}
+
+/* Heading style */
+.heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+/* Role style */
+.role {
+    color: gray;
+  text-shadow: 2px 2px 4px #000000;
+    font-size: 16px;
+}
+
+/* Example of a simple fade-in animation for the container */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.div1 {
+    animation: fadeIn 0.5s ease-out; /* Apply the animation to the container */
+}
